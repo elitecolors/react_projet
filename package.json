@@ -6,8 +6,8 @@
   "scripts": {
     "start": "node server",
     "server": "nodemon server",
-    "client" : "npm start --prefix client",
-    "dev" : "concurrently \"npm run server\" \"npm run client\""
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
   },
   "author": "Saidani Ahmed",
   "license": "MIT",
@@ -23,6 +23,7 @@
     "nodemon": "^2.0.2",
     "passport": "^0.4.1",
     "passport-jwt": "^4.0.0",
-    "request": "^2.88.2"
+    "request": "^2.88.2",
+    "uuid": "^7.0.2"
   }
 }
