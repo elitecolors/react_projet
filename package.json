@@ -19,6 +19,8 @@
     "jsonwebtoken": "^8.5.1",
     "mongoose": "^5.9.4",
     "nodemon": "^2.0.2",
+    "passport": "^0.4.1",
+    "passport-jwt": "^4.0.0",
     "request": "^2.88.2"
   }
 }
