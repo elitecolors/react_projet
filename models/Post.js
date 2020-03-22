@@ -17,12 +17,13 @@ const PostSchema = new Schema({
     avatar: {
         type: String
     },
-    likes: {
-        user: {
+    likes: [
+     {   user: {
             type: Schema.Types.ObjectId,
             ref: 'users'
         }
-    },
+    }
+    ],
     comment: {
         user: {
             type: Schema.Types.ObjectId,
