@@ -11,7 +11,7 @@ dispatch({
 });
 setTimeout(()=>dispatch({
 type: REMOVE_ALERT,payload: id
-}), 3000
+}), 6000
 )
 
 };
